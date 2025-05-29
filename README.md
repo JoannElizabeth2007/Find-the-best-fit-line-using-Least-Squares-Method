@@ -37,7 +37,8 @@ num=0
 denom=0
 
 for i in range(len(X)):
-num+=(X[i] -X_mean)(Y[i]-Y_mean) denom+= (X[i]-X_mean)*2
+num+=(X[i] -X_mean)(Y[i]-Y_mean)
+denom+= (X[i]-X_mean)*2
 
 m=num/denom
 b=Y_mean-m*X_mean
